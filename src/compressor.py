@@ -16,13 +16,13 @@ class ContextCompressor:
         if estimated_tokens <= self.max_tokens:
             return combined
         prompt = f"""Compress the following information into a concise summary relevant to the question.
-Question: {query}
+                Question: {query}
 
-Information:
-{combined}
+                Information:
+                {combined}
 
-Return only the compressed, relevant information.
-"""
+                Return only the compressed, relevant information.
+                """
         try:
             response = self.llm.invoke(prompt)
             return response.content
