@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "question": "What is the main purpose of the Odoo ERP manual provided by Cybrosys Technologies?",
+      "answer": "The manual serves as a comprehensive guide to give users an overall outlook about Odoo ERP, including its main features, functionalities, and step-by-step configuration."
+    },
+    {
+      "question": "In what year did Cybrosys begin providing reliable software services?",
+      "answer": "Cybrosys has been providing reliable software services across different sectors of the software industry since 2008."
+    },
+    {
+      "question": "Who is the CEO of Cybrosys Technologies?",
+      "answer": "Sainul Abideen is the CEO of Cybrosys Technologies."
+    },
+    {
+      "question": "What were the previous names of Odoo before it became Odoo?",
+      "answer": "Odoo was initially called 'Tiny ERP' and then changed to 'Open ERP' before finally becoming 'Odoo'."
+    },
+    {
+      "question": "What is the definition of open source software according to the document?",
+      "answer": "Open source software is a computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose."
+    },
+    {
+      "question": "What are some examples of open source ERP software mentioned in the document?",
+      "answer": "Some examples of open source ERP software mentioned in the document are Odoo, Openbravo, ERPNext, iDempiere, and xTuple PostBooks."
+    },
+    {
+      "question": "Who started Odoo and in what year?",
+      "answer": "Odoo was started in 2005 by open source enthusiast Fabien Pinckaers."
+    },
+    {
+      "question": "How many customers and partner networks does Odoo currently have according to the document?",
+      "answer": "Odoo currently has 2 million+ customers and a 730+ partner network."
+    },
+    {
+      "question": "What are the two basic versions of Odoo ERP available?",
+      "answer": "The two basic versions of Odoo ERP available are the Community version and the Enterprise version."
+    },
+    {
+      "question": "What happens when you check the \"Load Demonstration data\" box during database creation in Odoo?",
+      "answer": "Checking the \"Load Demonstration data\" box fills your apps with sample data to evaluate Odoo."
+    },
+    {
+      "question": "What is the purpose of the Master Password in Odoo?",
+      "answer": "The Master Password is a key-stone element that controls entire Odoo Databases, and actions like database creation, deletion, and duplication cannot be performed without it."
+    },
+    {
+      "question": "What are the four major access levels an administrator can enforce on Groups in Odoo?",
+      "answer": "The four major access levels an administrator can enforce are perm_read (read access), perm_write (write access), perm_create (create access), and perm_unlink (delete access)."
+    },
+    {
+      "question": "Which two accounting methods does Odoo support?",
+      "answer": "Odoo supports both accrual and cash basis reporting methods."
+    },
+    {
+      "question": "What does the \"Lock Date for Non-Advisers\" feature do in Odoo Accounting?",
+      "answer": "The \"Lock Date for Non-Advisers\" feature prevents a Non-Adviser level user from editing an accounting entry created on this date and prior."
+    },
+    {
+      "question": "What are the five states of an invoice in Odoo?",
+      "answer": "The five states of an invoice in Odoo are Draft, Pro-forma, Open, Paid, and Cancel."
+    },
+    {
+      "question": "What does the \"Use Anglo-Saxon Accounting\" option change in Odoo?",
+      "answer": "Enabling \"Use Anglo-Saxon Accounting\" changes the system's behavior to Anglo-Saxon from the default continental accounting."
+    },
+    {
+      "question": "What are the three states an asset can have in Odoo's asset management?",
+      "answer": "An asset in Odoo can have three states: Draft, Running, and Close."
+    },
+    {
+      "question": "What are the three things that need to be configured to work with Odoo budget management?",
+      "answer": "The three things that need to be configured for Odoo budget management are Budgetary Positions, Analytic Accounts, and Budget."
+    },
+    {
+      "question": "What are the three types of default users in the CRM module?",
+      "answer": "The three types of default users in the CRM module are Manager, User - Own documents only, and User - All documents."
+    },
+    {
+      "question": "How does Odoo CRM define the basic steps in tracking a sale?",
+      "answer": "The basic steps involved in tracking a sale are Lead, Opportunity, Pipeline, Quotation, Sale Order, and Invoice Generation and Payment."
+    },
+    {
+      "question": "What is a Lead in Odoo CRM?",
+      "answer": "A lead is a potential contact or customer that is not yet qualified as an opportunity."
+    },
+    {
+      "question": "What is the purpose of the Point of Sale (POS) module in Odoo?",
+      "answer": "The POS module allows retail businesses to manage sales operations, process transactions, and track inventory in real-time, even offline."
+    },
+    {
+      "question": "How does Odoo handle inventory valuation?",
+      "answer": "Odoo supports multiple inventory valuation methods including Standard Price, Average Cost (AVCO), and First In First Out (FIFO)."
+    },
+    {
+      "question": "What is a Bill of Materials (BOM) in Odoo Manufacturing?",
+      "answer": "A BOM is a document that defines the quantity of each component required to manufacture or produce a finished product."
+    },
+    {
+      "question": "What is the difference between a Quotation and a Sales Order in Odoo?",
+      "answer": "A quotation is a preliminary offer sent to a customer, which becomes a Sales Order once the customer confirms and accepts the quotation."
+    },
+    {
+      "question": "Can Odoo manage multiple companies?",
+      "answer": "Yes, Odoo supports a multi-company environment, allowing users to manage operations, users, and finances for multiple entities within a single database."
+    },
+    {
+      "question": "What is the purpose of the 'Routings' feature in Odoo Manufacturing?",
+      "answer": "Routings define the specific work centers and the sequence of operations required to manufacture a product."
+    },
+    {
+      "question": "How does the Purchase module in Odoo help with inventory management?",
+      "answer": "It automates procurement propositions, handles purchase orders, tracks vendor bills, and integrates with inventory for stock updates upon receiving goods."
+    },
+    {
+      "question": "What are Analytic Accounts used for in Odoo?",
+      "answer": "Analytic Accounts are used for cost accounting to track revenues and expenses for specific projects, departments, or contracts without affecting the general ledger."
+    },
+    {
+      "question": "What is a Work Center in Odoo MRP?",
+      "answer": "A Work Center is a physical location or machine within a manufacturing facility where specific production operations are carried out."
+    },
+    {
+      "question": "What does the Odoo Project Management module allow users to do?",
+      "answer": "It allows users to organize tasks, track time, manage deadlines, and collaborate on projects using Kanban boards and Gantt charts."
+    },
+    {
+      "question": "What is the function of the 'Leave Management' (Time Off) module in Odoo HR?",
+      "answer": "It enables employees to request time off and allows managers to approve or reject these requests while automatically tracking leave balances."
+    },
+    {
+      "question": "How does Odoo handle website creation?",
+      "answer": "Odoo provides an integrated Website Builder module that uses a drag-and-drop interface to create and manage dynamic websites seamlessly linked with other Odoo apps."
+    },
+    {
+      "question": "What is a 'Reordering Rule' in Odoo Inventory?",
+      "answer": "A Reordering Rule is a configuration that automatically triggers a procurement or purchase order when the stock level of a product falls below a defined minimum quantity."
+    },
+    {
+      "question": "What is the role of the 'Appraisal' module in Odoo?",
+      "answer": "The Appraisal module is used by HR to set up periodic employee performance evaluations, collect feedback, and track employee development."
+    },
+    {
+      "question": "Can Odoo integrate with third-party payment gateways?",
+      "answer": "Yes, Odoo supports integration with various third-party payment gateways like PayPal, Stripe, and Authorize.net for processing online transactions."
+    },
+    {
+      "question": "What is a 'Variant' in Odoo product configuration?",
+      "answer": "A Variant represents the different versions of a product based on specific attributes, such as color, size, or material."
+    },
+    {
+      "question": "What does the Odoo Email Marketing app do?",
+      "answer": "It allows users to design, send, and track mass email campaigns, segmenting audiences and analyzing open and click rates."
+    },
+    {
+      "question": "What is the purpose of the 'Scrap' function in Odoo Inventory?",
+      "answer": "The Scrap function is used to remove damaged, defective, or expired goods from available stock and move them to a virtual scrap location."
+    },
+    {
+      "question": "How does Odoo facilitate inter-company transactions?",
+      "answer": "In a multi-company setup, Odoo can automatically generate corresponding sales or purchase orders in one company when a related order is confirmed in another company."
+    }
+  ],
+  "metadata": {
+    "source_file": "document.pdf",
+    "created_by": "manual",
+    "timestamp": "2026-07-17T04:27:07"
+  }
+}

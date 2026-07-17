@@ -250,3 +250,30 @@ else:
                     use_web_search=st.session_state.use_web_search,
                     **kwargs
                 )
+
+import streamlit as st
+from evaluation.evaluator import run_evaluation_from_session
+
+# ... (code hiện tại) ...
+
+# Thêm một tab hoặc button để chạy đánh giá
+if st.sidebar.button("📊 Run RAGAS Evaluation"):
+    if st.session_state.vector_store is None or st.session_state.hybrid_retriever is None:
+        st.error("⚠️ Please upload and index a document first!")
+    else:
+        with st.spinner("Running evaluation..."):
+            # Chọn file ground truth (bạn có thể cho dropdown)
+            ground_truth_file = "sample_ground_truth.json"  # hoặc st.selectbox
+            
+            # Chạy đánh giá
+            result = run_evaluation_from_session(
+                vector_store=st.session_state.vector_store,
+                hybrid_retriever=st.session_state.hybrid_retriever,
+                ground_truth_file=ground_truth_file,
+                num_samples=5,  # đánh giá 5 câu đầu để nhanh
+                cohere_api_key=cohere_api_key
+            )
+            
+            st.success("✅ Evaluation complete!")
+            st.json(result["scores"])
+            st.write(f"📄 Report saved to: {result['report_file']}")
