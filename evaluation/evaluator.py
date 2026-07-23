@@ -13,8 +13,8 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 # Import từ project chính
 from src.hybrid_retriever import HybridRetriever
-from src.llms.factory import LLMFactory
-from src.embeddings.factory import EmbeddingsFactory
+from src.llms.llm_factory import LLMFactory
+from src.embeddings.embeddings_factory import EmbeddingsFactory
 from src.utils import load_pdf, split_documents, build_vector_store, add_chunks_to_vector_store_hf_embeddings, create_hybrid_retriever
 
 # Import RAGAS

@@ -4,6 +4,8 @@ import streamlit as st
 from streamlit_pdf_viewer import pdf_viewer
 from langchain_core.messages import HumanMessage
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from dotenv import load_dotenv
+load_dotenv()
 
 # local
 from utils import (
