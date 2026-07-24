@@ -13,7 +13,7 @@ Methods:
 """
 
 from typing import Union, Iterator
-from langchain_cohere.chat_models import ChatCohere
+from langchain_community.chat_models import ChatCohere
 
 # local
 from src.llms.base_llm import BaseLLM

@@ -23,6 +23,7 @@ from src.query_rewriter import QueryRewriter
 from src.compressor import ContextCompressor
 from src.web_search import WebSearch
 from src.citation import CitationGenerator
+from langchain_community.embeddings import CohereEmbeddings
 
 
 # ========== HELPER FUNCTIONS ==========

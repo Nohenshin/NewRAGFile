@@ -8,7 +8,7 @@ Attributes:
     - embeddings (CohereEmbeddings): An instance of the LangChain CohereEmbeddings initialized with the specified model and API key.
 """
 
-from langchain_cohere.embeddings import CohereEmbeddings
+from langchain_community.embeddings import CohereEmbeddings
 
 
 class CohereEmbedding:

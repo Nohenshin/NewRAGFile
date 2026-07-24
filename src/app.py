@@ -142,6 +142,15 @@ with st.sidebar:
                 chunks, parent_map = split_documents(docs)
                 st.success(f"✅ Split into {len(chunks)} child chunks, {len(parent_map)} parent chunks")
 
+            import pickle
+            import os
+            os.makedirs("data", exist_ok=True)
+            with open("data/chunks.pkl", "wb") as f:
+                pickle.dump(chunks, f)
+            with open("data/parent_map.pkl", "wb") as f:
+                pickle.dump(parent_map, f)
+            st.success("✅ Data saved for API!")
+
             st.markdown(f"📄 Found `{len(docs)}` pages → `{len(chunks)}` child chunks, `{len(parent_map)}` parent chunks")
 
             # ===== CREATE HUGGINGFACE EMBEDDINGS (NO API KEY) =====

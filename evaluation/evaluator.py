@@ -25,7 +25,7 @@ from ragas.embeddings import LangchainEmbeddingsWrapper
 
 # LangChain
 from langchain_cohere import ChatCohere
-from langchain_cohere import CohereEmbeddings
+from langchain_community.embeddings import CohereEmbeddings
 from langchain_core.documents import Document
 
 # Config
